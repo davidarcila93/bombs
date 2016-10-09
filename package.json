@@ -1,7 +1,7 @@
 {
-  "name": "ionic-hello-world",
-  "author": "Ionic Framework",
-  "homepage": "http://ionicframework.com/",
+  "name": "bombs",
+  "author": "",
+  "homepage": "",
   "private": true,
   "scripts": {
     "build": "ionic-app-scripts build",
@@ -22,7 +22,7 @@
     "@ionic/app-scripts": "latest",
     "typescript": "^2.0.3"
   },
-  "description": "bombs2: An Ionic project",
+  "description": "bombs: An Ionic project",
   "cordovaPlugins": [
     "cordova-plugin-device",
     "cordova-plugin-console",
