@@ -1,0 +1,7 @@
+<ion-grid>
+  <ion-row *ngFor="let a of yArray; let i = index;">
+    <ion-col *ngFor="let b of xArray; let j = index">
+      <bomb [id]="i*x+j"></bomb>
+    </ion-col>
+  </ion-row>
+</ion-grid>

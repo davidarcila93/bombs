@@ -7,6 +7,7 @@ import { HomePage } from '../pages/home/home';
 import { TabsPage } from '../pages/tabs/tabs';
 import {GamePage} from "../pages/game/game";
 import {BombComponent} from "../components/bomb/bomb";
+import {BombsMatrix} from "../components/bombs-matrix/bombs-matrix";
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import {BombComponent} from "../components/bomb/bomb";
     HomePage,
     TabsPage,
     GamePage,
-    BombComponent
+    BombComponent,
+    BombsMatrix
   ],
   imports: [
     IonicModule.forRoot(MyApp)
@@ -29,7 +31,8 @@ import {BombComponent} from "../components/bomb/bomb";
     HomePage,
     TabsPage,
     GamePage,
-    BombComponent
+    BombComponent,
+    BombsMatrix
   ],
   providers: []
 })

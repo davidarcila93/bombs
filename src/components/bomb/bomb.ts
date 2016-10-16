@@ -4,7 +4,7 @@
 import {Component, Input} from '@angular/core';
 import {BombsService} from "../../services/bombs.service";
 import {Subscription} from 'rxjs/Subscription';
-import 'rxjs/operator/filter'
+import 'rxjs/add/operator/filter'
 
 @Component({
   selector: 'bomb',
@@ -28,6 +28,10 @@ export class BombComponent {
 
   activate() {
     this.on = true;
+  }
+
+  ngOnDestroy(){
+    this.subscription.unsubscribe();
   }
 
   private subscribeObservable() {
